@@ -1,0 +1,29 @@
+﻿body {
+font-family:Arial;
+color:dimgray;
+background-color:floralwhite;
+width:980px;
+margin-left:auto;
+margin-right:auto;
+}
+hr {
+border:2px;
+border-style:solid;
+color:darkred;
+}
+ul
+{
+list-style-image:url(images/bullet_red.png);
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
