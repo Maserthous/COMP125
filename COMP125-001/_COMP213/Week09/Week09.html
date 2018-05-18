@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Forms 2 - Andrew Coppin - COMP213</title>
+<meta content="html form, COMP213" name="keywords">
+<meta content="Example of using HTML forms." name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1>Centennial College - Registration Form</h1>
+</header>
+<form action="mailto:jdoe37@gmail.com" method="post">
+<fieldset>
+<legend>Personal Info</legend>
+	<label>First Name: </label><input name="txtFirstName" size="25" tabindex="1" type="text"><br>
+	<label>Last Name: </label><input name="txtLastName" size="25" tabindex="3" type="text"><br>
+	<label>Email: </label><input name="txtEmail" size="30" tabindex="5" type="email" placeholder="example@domain.ca" required="required"><br>
+	<label>Create Pwd: </label><input name="txtCreatePwd" size="16" tabindex="7" type="password"><br>
+	<label>Confirm Pwd: </label><input name="txtConfirmPwd" size="16" tabindex="9" type="password"><br>
+	<label>Gender: </label>
+	<input name="optGender" tabindex="11" type="radio" value="M">M
+	<input name="optGender" tabindex="13" type="radio" value="F">F<br>
+	<label>Favourite Colour: </label><input name="txtColour" size="25" tabindex="14" type="color">
+</fieldset>
+<fieldset>
+<legend>Education Info</legend>
+	<label>Education: </label>
+	<input name="optEd" tabindex="15" type="radio" value="Sec">Secondary
+	<input name="optEd" tabindex="17" type="radio" value="Col">College
+	<input name="optEd" tabindex="19" type="radio" value="Ugrad">UGrad
+	<input name="optEd" tabindex="21" type="radio" value="Grad">Grad
+	<input name="optEd" tabindex="23" type="radio" value="Pgrad">PGrad<br>
+	<label>Computer Knowledge: </label>
+	<input name="chkOS" tabindex="25" type="checkbox" value="OS">OS
+	<input name="chkNet" tabindex="27" type="checkbox" value="Net">Networking
+	<input name="chkProg" tabindex="29" type="checkbox" value="Prog">Programming
+	<input name="chkWeb" tabindex="31" type="checkbox" value="Web">Web Design 
+	<input name="chkDB" tabindex="33" type="checkbox" value="DB">DB<br>
+	<label>Select Courses: </label>
+	<select multiple="multiple" name="lstCourses" size="4" tabindex="35">
+	<option value="COMP100">COMP100 Programming I</option>
+	<option value="COMP125">COMP125 Client Side Scripting</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="COMP225">COMP225 Systems I</option>
+	<option value="COMP229">COMP229 Server Side Development</option>
+	</select><br>
+	<label>Start Date: </label><input name="txtStartDate" tabindex="36" type="date"><br>
+	<label>Special Requests: </label>
+	<textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37" placeholder="---Please let us know about special needs we can help you with (note taking, closed captioning, etc.)---"></textarea><br>
+	<input name="btnSubmit" tabindex="39" type="submit" value="Complete Registration Now"><input name="btnReset" tabindex="41" type="reset" value="Start Again">
+</fieldset>
+</form>
+<footer>
+	<p>&copy;&nbsp;&nbsp;Copyright Andrew Coppin Student #:300969290 - COMP213 - Web Interface Design - Fall 2017</p>
+</footer>
+</div>
+</body>
+</html>

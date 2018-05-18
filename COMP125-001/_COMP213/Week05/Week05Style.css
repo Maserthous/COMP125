@@ -1,0 +1,50 @@
+﻿body {
+	font-family: Arial;
+	color: dimgray;
+	background-color: aliceblue;
+}
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+a:hover {
+	color: purple;
+	text-decoration: none;
+	background-color: #D7FFAE;
+}
+h3 {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: purple;
+	text-transform: uppercase;
+}
+h4 {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: purple;
+	text-transform: uppercase;
+}
+ul {
+	list-style-image: url('images/aball.gif');
+}
+td {
+	vertical-align: top;
+}
+#contact {
+	vertical-align: bottom;
+	text-align: right;
+}
+#oddRow {
+	background-color: #D7FFAE;
+}
+#evenRow {
+	background-color: #FFFFFF;
+}
+#allPage {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+

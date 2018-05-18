@@ -1,0 +1,42 @@
+﻿Home Page (Home):
+
+
+
+Switchboard Page (Inventory):
+
+
+Contact Form (Contact):
+
+
+Site Map/Credits (Sitemap):
+used car sale image - hicomemphis.com
+Corolla image - autotraining.edu
+F-150 image - cars.com
+Microbus image - momentcar.com
+KURATAS image - engadget.com
+Challenger image - wikipedia.org
+
+Vehicle 1 (Corolla):
+2014 Toyota Corolla
+41,357 km
+$11,995
+
+Vehicle 2 (F150):
+2013 Ford F-150
+82,554 km
+$26,985
+
+Vehicle 3 (Type2):
+1963 Volkswagen Microbus Type 2
+48,742 km
+$19,890
+
+Vehicle 4 (Kuratas):
+2013 Suidobashi Heavy Industry KURATAS
+6,824 km
+$1,912,990
+
+Vehicle 5 (Challenger):
+1983 NASA Challenger OV-099
+12,000,000 km
+$2,857,246,975

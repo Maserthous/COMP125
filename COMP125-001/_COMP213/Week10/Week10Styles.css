@@ -1,0 +1,30 @@
+﻿body {
+	color: #333333;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#allPage {
+	width: 800px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-image: url('images/BeachTripHeader.png');
+}
+#footer {
+	background-color: #0068AE;
+	color: #FFFFFF;
+	font-size: x-small;
+}
+.floatRight {
+	float: right;
+	margin-left: 6px;
+}
+.pageTitle {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: #186BA3;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	font-size: large;
+	font-weight: bold;
+}

@@ -1,0 +1,56 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #333333;
+	background-color: ghostwhite;
+}
+#allPage {
+	width: 980px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: medium;
+}
+#header {
+	background-repeat: no-repeat;
+	background-image: url('images/UsedCar.jpg');
+	padding-left: 275px;
+	font-size: small;
+	background-color: #0B3E7F;
+	color: #FFFFFF;
+}
+#dealer {
+	padding-left: 400px;
+	font-size: small;
+}
+#navigation {
+	padding: 5px;
+}
+#footer {
+	font-size: x-small;
+	background-color: #0B3E7F;
+	color: #FFFFFF;
+}
+.dealerPic {
+	padding-right: 5px;
+}
+.nav {
+	color: #FFFFFF;
+}
+.center {
+	text-align: center;
+}
+.noBorder {
+	border-width: 0px;
+}
+.center {
+	text-align: center;
+}
+.picAndy {
+	padding: 10px;
+}
+label {
+	width: 200px;
+	text-align: right;
+	float: left;
+	clear: both;
+}

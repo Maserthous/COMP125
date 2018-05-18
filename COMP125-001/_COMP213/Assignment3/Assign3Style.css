@@ -1,0 +1,48 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: floralwhite;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	font-weight: bold;
+	background-image: url('images/ec_logo.gif');
+	background-repeat: no-repeat;
+	height: 50px;
+	padding-left: 280px;
+	padding-top: 3px;
+	color: #000066;
+}
+h2 {
+	font-weight: bold;
+	color: #000066;
+}
+footer {
+	font-size: small;
+}
+.table {
+	border: 1px solid dimgrey;
+}
+.tHead {
+	background-color: #000066;
+	color: white;
+}
+.tOddRow {
+	background-color: aliceblue;
+}
+.tPic {
+	text-align: center;
+	width: 300px;
+}
+h3 {
+	color: #000066;
+}
+.tHome {
+	text-align: right;
+	right: auto;
+	left: auto;
+}

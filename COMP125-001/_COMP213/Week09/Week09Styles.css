@@ -1,0 +1,47 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-image: url('images/trilliumgradient.png');
+}
+h1 {
+	background-image: url('images/CC50thAnniversary.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 104px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: #828612;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	padding-left: 102px;
+	height: 104px;
+	font-size: 1.2em;
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+}
+footer {
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #808080;
+	background-color: #828612;
+	color: #FFFFFF;
+	font-size: x-small;
+	padding: 6px;
+}
+#allPage {
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #808080;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label {
+	width: 250px;
+	text-align: right;
+	float: left;
+	clear: both;
+}
+fieldset {
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #808080;
+	margin-bottom: 8px;
+}

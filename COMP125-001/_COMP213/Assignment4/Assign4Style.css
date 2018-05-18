@@ -1,0 +1,51 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: dimgrey;
+	background-color: honeydew;
+	background-repeat: repeat-x;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer {
+	font-size: x-small;
+	background-color: #666666;
+	color: #FFFFFF;
+	padding: 1px 10px 1px 10px;
+}
+h1 {
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+fieldset {
+	padding: 5px 10px 15px 10px;
+	background-color: #FFFFFF;
+}
+legend {
+	border-width: 1px;
+	border-style: solid;
+	margin: 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	background-color: #FFFFFF;
+}
+.egfn {
+	width: 170px;
+	float: left;
+}
+.ynu {
+	width: 100px;
+	float: left;
+}
+.indent {
+	width: 170px;
+	float: left;
+	text-align: right;
+}
+.icenter {
+	font-style: italic;
+	text-align: center;
+}
