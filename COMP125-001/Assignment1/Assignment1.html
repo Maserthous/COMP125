@@ -11,14 +11,35 @@
     </header>
     <form action="jdoe37@someplace.ca" method="post">
     <p>
-        <label for="txtFar">Fahrenheit:</label>
-        <input id="txtFar" name="txtFar" type="text" />&nbsp;&nbsp;&nbsp;
-        <span id="display">result</span>
+        <label for="selSex">Sex:</label>
+        <select id="selSex" name="selSex" size="1">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+    </p>
+    <p>
+        <label for="txtAge">Age:</label>
+        <input id="txtAge" name="txtAge" type="text" />
+    </p>
+    <p>
+        <label for="txtHeight">Height in cm: </label>
+        <input id="txtHeight" name="txtHeight" type="text" />
+    </p>
+    <p>
+        <label for="txtWeight">Weight in kg: </label>
+        <input id="txtWeight" name="txtWeight" type="text" />
+    </p>
+    <p>Select your activity level:</p>
+    <p>
+        <input type="radio" id="radAct" name="radAct" value="light" />&nbsp;Sedentary or light activity<br />
+        <input type="radio" id="radAct" name="radAct" value="moderate" />&nbsp;Active or moderately active<br />
+        <input type="radio" id="radAct" name="radAct" value="heavy" />&nbsp;Vigorously active
     </p>
     <p>
         <input id="btnCalculate" name="btnCalculate" type="button" value="Calculate" />
-
     </p>
+    <p>Your BMR: <span id="bmr"></span></p>
+    <p>Your Caloric Intake: <span id="calories"></span></p>
     </form>
     <script src="Assignment1.js"></script>
 </body>
